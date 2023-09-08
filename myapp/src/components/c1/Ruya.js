@@ -2,7 +2,7 @@ import React from 'react'
 
 const Ruya = () => {
   return (
-    <div>Ruya: Ben sadece müzik dersi aliyorum   </div>
+    <div>Ruya: Ben sadece Muzik dersi aliyorum</div>
   )
 }
 

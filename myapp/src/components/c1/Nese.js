@@ -2,7 +2,7 @@ import React from 'react'
 
 const Nese = () => {
   return (
-    <div>Nese: Turkce ve matematik derslerini alıyorum </div>
+    <div>Nese: Turkce ve matematik derslerini aliyorum </div>
   )
 }
 
