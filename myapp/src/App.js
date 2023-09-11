@@ -1,6 +1,9 @@
 import React from 'react'
-import SelectedCourses from './components/c4/SelectedCourses'
-import Tablo from './components/c5/tablo'
+import Kisiler from './components/c8/Kisiler'
+/* import Ulkeler from './components/c7/Ulkeler' */
+/* import Products from './components/c6/Products' */
+/* import Tablo from './components/c5/Tablo' */
+/* import SelectedCourses from './components/c4/SelectedCourses' */
 /* import Filtered from './components/c3/Filtered' */
 /* import IsLogin from './components/c2/IsLogin' */
 /* import Dersler from './components/c1/Dersler' */
@@ -13,13 +16,20 @@ const App = () => {
 <Dersler/> 
 <IsLogin/>    
 <Filtered/>    
-  <SelectedCourses/>   
-    
-    
+<SelectedCourses/>    
+<Tablo/>    
+<Products/>
+<Ulkeler/>
+
+
+
+
+
+
     
     */}
 
-   <Tablo/>
+<Kisiler/>
 
 
 
