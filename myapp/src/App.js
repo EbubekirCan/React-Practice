@@ -1,4 +1,5 @@
 import React from 'react'
+import Shop from './components/c10/Shop'
 /* import Kisiler from './components/c8/Kisiler'
 import StudentCard from './components/c9/StudentCard' */
 /* import Ulkeler from './components/c7/Ulkeler' */
@@ -33,7 +34,7 @@ const App = () => {
     */}
 
 
-
+<Shop/>
 
 
 
