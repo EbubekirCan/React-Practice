@@ -1,6 +1,8 @@
 import React from 'react'
 /* import RandomImage from './components/c11/RandomImage'
- */import Sairler from './components/c12/Sairler'
+import Sairler from './components/c12/Sairler'
+ */ 
+import Paragraph from './components/c13/Paragraph'
 /* import Shop from './components/c10/Shop'
  *//* import Kisiler from './components/c8/Kisiler'
 import StudentCard from './components/c9/StudentCard' */
@@ -29,7 +31,7 @@ const App = () => {
 <Shop/>
 
 <RandomImage/>
-
+<Sairler/>
 
 
     
@@ -37,7 +39,7 @@ const App = () => {
 
 
 
-<Sairler/>
+<Paragraph/>
 
 
 
