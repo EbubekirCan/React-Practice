@@ -1,5 +1,6 @@
 import React from 'react'
-import RandomImage from './components/c11/RandomImage'
+/* import RandomImage from './components/c11/RandomImage'
+ */import Sairler from './components/c12/Sairler'
 /* import Shop from './components/c10/Shop'
  *//* import Kisiler from './components/c8/Kisiler'
 import StudentCard from './components/c9/StudentCard' */
@@ -27,16 +28,16 @@ const App = () => {
 <StudentCard/>
 <Shop/>
 
-
+<RandomImage/>
 
 
 
     
     */}
 
-<RandomImage/>
 
 
+<Sairler/>
 
 
 
