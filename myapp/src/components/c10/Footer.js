@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+   <footer className='text-center p-5 bg-secondary'>&copy; 2023 - Copyright by Joystick Stor</footer>
   )
 }
 

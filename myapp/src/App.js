@@ -1,11 +1,13 @@
 import React from 'react'
-/* import RandomImage from './components/c11/RandomImage'
-import Sairler from './components/c12/Sairler'
- */ 
-import Paragraph from './components/c13/Paragraph'
-/* import Shop from './components/c10/Shop'
- *//* import Kisiler from './components/c8/Kisiler'
-import StudentCard from './components/c9/StudentCard' */
+import Countries from './components/c15/Countries'
+/* import Listele from './components/c14/Listele' */
+/* import Paragraph from './components/c13/Paragraph' */
+/* import Sairler from './components/c12/Sairler' */
+/* import RandomImage from './components/c11/RandomImage' */
+/* import Shop from './components/c10/Shop' */
+/* import StudentCard from './components/c9/StudentCard' */
+/* import Kisiler from './components/c8/Kisiler' */
+
 /* import Ulkeler from './components/c7/Ulkeler' */
 /* import Products from './components/c6/Products' */
 /* import Tablo from './components/c5/Tablo' */
@@ -29,17 +31,16 @@ const App = () => {
 <Kisiler/>
 <StudentCard/>
 <Shop/>
-
 <RandomImage/>
 <Sairler/>
-
-
+<Paragraph/>
+<Listele/>
     
     */}
 
 
+<Countries/>
 
-<Paragraph/>
 
 
 

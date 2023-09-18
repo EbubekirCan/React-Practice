@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import data from "./data";
-import "./text.css";
+/* import "./text.css"; */
 
 const Paragraph = () => {
   const [count, setCount] = useState(0);
