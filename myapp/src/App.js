@@ -1,5 +1,6 @@
 import React from 'react'
 import Countries from './components/c15/Countries'
+import BusinessInfo from './components/c16/BusinessInfo'
 /* import Listele from './components/c14/Listele' */
 /* import Paragraph from './components/c13/Paragraph' */
 /* import Sairler from './components/c12/Sairler' */
@@ -35,11 +36,11 @@ const App = () => {
 <Sairler/>
 <Paragraph/>
 <Listele/>
-    
+    <Countries/>
     */}
 
+<BusinessInfo/>
 
-<Countries/>
 
 
 
