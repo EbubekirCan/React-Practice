@@ -4,7 +4,8 @@ import { RingLoader } from 'react-spinners'
 import CardBusiness from './CardBusiness'
 
 const BusinessInfo = () => {
-    
+    const [data, setdata] = useState([])
+    const [loading, setloading] = useState(true)
 
     useEffect(() => {
 
