@@ -10,20 +10,7 @@ const PersonInfo = () => {
 
 
     useEffect(() => {
-
-    const getPersonData = async () => { 
-
-        try {
-            const response=await axios.get("https://650d9fdda8b42265ec2c80a4.mockapi.io/products")
-            const data=response.data
-            setperson(data)
-            setloading(false)
-          //  console.log(data)
-        } catch (error) {
-            console.log(error)
-            
-        }
-     }
+  }
 
   
        
