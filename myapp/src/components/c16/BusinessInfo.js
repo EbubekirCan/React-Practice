@@ -7,7 +7,28 @@ const BusinessInfo = () => {
     const [data, setdata] = useState([])
     const [loading, setloading] = useState(true)
 
-    
+    useEffect(() => {
+
+        const getBusinessData =() => { 
+
+        const timer=    setTimeout(()=>{
+                 fetch("https://650d9fdda8b42265ec2c80a4.mockapi.io/products")
+            .then((res)=>res.json())
+            .then((data)=>{
+                setdata(data)
+                   console.log(data)
+            })
+            .catch((error)=>{
+                console.log(error)
+            })
+
+            .finally(()=>{
+                setloading(false)
+            })
+
+
+            },3000)
+
          
 
 return(()=>{
