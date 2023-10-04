@@ -1,5 +1,6 @@
 import React from 'react'
 import PersonInfo from './components/c17/PersonInfo'
+import MainMovie from './components/c18-movie/MainMovie'
 /* import BusinessInfo from './components/c16/BusinessInfo' */
 /* import Countries from './components/c15/Countries' */
 /* import Listele from './components/c14/Listele' */
@@ -39,11 +40,12 @@ const App = () => {
 <Listele/>
 <Countries/>
  <BusinessInfo/>   
+ <PersonInfo/>
     */}
 
 
-<PersonInfo/>
-
+ 
+<MainMovie/>
 
 
 
